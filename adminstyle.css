@@ -1,0 +1,152 @@
+
+
+
+
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f2f6fa;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  color: #333;
+}
+
+header {
+  background: #2b7cff;
+  color: white;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+nav a {
+  color: white;
+  margin-right: 16px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.button {
+  padding: 10px 16px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+.button.secondary {
+  background: #555;
+}
+
+.button.red {
+  background: #e74c3c;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.card-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+}
+
+.event-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+  padding: 16px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-card h3 {
+  margin-top: 0;
+  margin-bottom: 6px;
+  font-size: 1.2rem;
+}
+
+.event-meta {
+  font-size: 0.75rem;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.event-description {
+  flex-grow: 1;
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+}
+
+.event-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.badge {
+  background: #2b7cff;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.65rem;
+  margin-right: 6px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.7rem;
+  margin-top: 8px;
+}
+
+.event-creator {
+  font-style: italic;
+  color: #777;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.table th, .table td {
+  padding: 10px 12px;
+  border: 1px solid #e1e8f0;
+  text-align: left;
+}
+
+.table th {
+  background: #f0f4fb;
+}
+
+.small { font-size: 0.85rem; color: #555; }
+
